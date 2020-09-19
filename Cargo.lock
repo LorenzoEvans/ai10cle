@@ -476,6 +476,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "ai10cle"
+version = "0.1.0"
+dependencies = [
+ "actix 0.10.0-alpha.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "actix-files 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "actix-rt 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "actix-web 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "arc-swap"
 version = "0.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1376,16 +1386,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "hostname 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "quick-error 1.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "rust-buildpack-example-actix"
-version = "0.1.0"
-dependencies = [
- "actix 0.10.0-alpha.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "actix-files 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "actix-rt 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "actix-web 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
